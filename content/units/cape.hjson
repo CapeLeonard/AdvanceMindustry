@@ -1,0 +1,12 @@
+type: flyingUnit
+speed: 0.3
+flying: true
+health: 150
+range: 180
+weapon: { 
+  name: clear
+  lenght: 1.5
+  reload: 250
+  alternate: false
+  bullet: standardCopper
+}

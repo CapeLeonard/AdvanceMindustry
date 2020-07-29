@@ -1,0 +1,6 @@
+type: material
+hardness: 4
+cost: 2
+color: 7f7f7f
+name: fer
+description: Le matériau de base du mod

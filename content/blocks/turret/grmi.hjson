@@ -1,0 +1,41 @@
+type: ItemTurret
+targetGround: true
+shootshake: 2
+alternate: false 
+targetGround: true
+targetAir: false
+shootshake: 2 
+alternate:false
+healht: 2000
+size: 2
+inaccuracy: 4
+reload: 2
+shootCone:19
+shots: 2 
+range: 300
+burstSpacing: 5 
+maxAmmo: 150
+cooldown: 1.0 
+ammo: {
+  fer: { 
+    BasicBulletType: BasicBulletType 
+    speed: 5 
+    BulletWidth: 6
+    bulletHeinght: 15
+    lifetime: 50
+    damage: 3.5
+    frontColor: "ababab"
+    backColor: "707070"
+    shootEffect: coreLand 
+    hitEffect: shootSmall
+  }
+}
+requirements: [
+  lead/250
+  fer/750
+  thorium/320
+  titanium/500
+]
+category: turret
+shootSound: shoot 
+research: lancer 

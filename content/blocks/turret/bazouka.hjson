@@ -1,0 +1,42 @@
+type: ItemTurret
+targetGround: type: ItemTurret
+targetGround: true
+shootshake: 2
+alternate: false 
+targetGround: true
+targetAir: true
+shootshake: 2
+alternate:false
+healht: 2000
+size: 3
+inaccuracy: 4
+reload: 25
+shootCone:19
+shots: 2 
+range: 250
+burstSpacing: 5 
+maxAmmo: 150
+cooldown: 1.0 
+ammo: {
+  saphir: { 
+    BasicBulletType: BasicBulletType 
+    speed: 10
+    BulletWidth: 6
+    bulletHeinght: 15
+    lifetime: 50 
+    damage: 2.5 
+    frontColor: "ababab"
+    backColor: "707070"
+    shootEffect: coreLand 
+    hitEffect: shootSmall
+  }
+}
+requirements: [
+  saphir/500
+  titanium/300
+  thorium/425
+  fer/250
+]
+category: turret
+shootSound: shoot 
+research: scatter
